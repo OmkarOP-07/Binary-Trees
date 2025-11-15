@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# But include only .cpp files
+!*.cpp
+!*
+# Optional: still ignore object and binary files just in case
+*.exe
+*.o
+*.out
