@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Node of a tree
 struct TreeNode
 {
     int val;
@@ -23,7 +24,6 @@ public:
         queue<TreeNode *> q;
         q.push(root);
         bool LtoR = true;
-
         while (!q.empty())
         {
             int size = q.size();
